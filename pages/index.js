@@ -40,7 +40,7 @@ export default function Home() {
         </div>
         <div className="bottom-line container"></div>
     </div>
-    <section class={`section section-bg about_bg about style_2 ${styles.aboutHome}`}>
+    <section className={`section section-bg about_bg about style_2 ${styles.aboutHome}`}>
         <div className="container">
             <div className="row justify-content-between">
                 <div className="col-lg-6">

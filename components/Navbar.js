@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import LoadCss from "./LoadCss";
 import LoadJs from "./LoadJs";
+import MobileNavbar from "./MobileNavbar";
 const Navbar = ({children}) => {
     return ( <>
         <LoadCss/>
@@ -19,16 +20,18 @@ const Navbar = ({children}) => {
                         <div className="head_actions">
                         <ul className="main-menu">
                                 <li className="menu-item"><Link href="/"><a>Home</a></Link></li>
-                                <li className="menu-item"><Link href="/"><a>About</a></Link></li>
-                                <li className="menu-item"><Link href="/"><a>Services</a></Link></li>
-                                <li className="menu-item"><Link href="/"><a>Contact</a></Link></li>
-                                <li className="menu-item"><Link href="/"><a>Home</a></Link></li>
+                                <li className="menu-item"><Link href="/about"><a>About</a></Link></li>
+                                <li className="menu-item"><Link href="/services"><a>Services</a></Link></li>
+                                <li className="menu-item"><Link href="/contact"><a>Contact</a></Link></li>
+                                {/* <li className="menu-item"><Link href="/"><a>Home</a></Link></li> */}
                             </ul>
                         </div>
                     </div>
                 </div>
             </header>
+            {/* <MobileNavbar/> */}
             <div className="main">{children}</div>
+            
         <LoadJs/>
     </> );
 }

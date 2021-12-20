@@ -2,18 +2,18 @@ import React from 'react';
 import styles from '../styles/Footer.module.css';
 const Footer = () => {
     return ( 
-        <footer class={`footer bg-thm-color-two-gradient style_2 z-1 ${styles.newFooter}`}>
-        <img src="assets/images/elements/element_13.png" class="element_1" alt="Element"/>
-        <img src="assets/images/elements/element_14.png" class="element_2" alt="Element"/>
-        <div class="container relative z-1">
-            <div class="footer_top section-padding">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="ft_widget ft_about wow fadeInDown">
-                            <a href="index.html" class="logo">
-                                <img src="assets/images/logo.png" alt="logo" class="image-fit"/>
+        <footer className={`footer bg-thm-color-two-gradient style_2 z-1 ${styles.newFooter}`}>
+        <img src="assets/images/elements/element_13.png" className="element_1" alt="Element"/>
+        <img src="assets/images/elements/element_14.png" className="element_2" alt="Element"/>
+        <div className="container relative z-1">
+            <div className="footer_top section-padding">
+                <div className="row">
+                    <div className="col-lg-3 col-md-6">
+                        <div className="ft_widget ft_about wow fadeInDown">
+                            <a href="index.html" className="logo">
+                                <img src="assets/images/logo.png" alt="logo" className="image-fit"/>
                             </a>
-                            <ul class="info">
+                            <ul className="info">
                                 <li>
                                     <a href="#">256 Elizaberth Ave Str, Brooklyn, CA, 90025</a>
                                 </li>
@@ -24,38 +24,38 @@ const Footer = () => {
                                     <a href="mailto:example@example.com">example@example.com</a>
                                 </li>
                             </ul>
-                            <ul class="social">
+                            <ul className="social">
                                 <li>
                                     <a href="#">
-                                        <i class="fab fa-facebook-f"></i>
+                                        <i className="fab fa-facebook-f"></i>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <i class="fab fa-twitter"></i>
+                                        <i className="fab fa-twitter"></i>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <i class="fab fa-linkedin"></i>
+                                        <i className="fab fa-linkedin"></i>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <i class="fab fa-behance"></i>
+                                        <i className="fab fa-behance"></i>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <i class="fab fa-youtube"></i>
+                                        <i className="fab fa-youtube"></i>
                                     </a>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="ft_widget ft_menu wow fadeInUp">
-                            <h6 class="ft-title">Our Coach</h6>
+                    <div className="col-lg-3 col-md-6">
+                        <div className="ft_widget ft_menu wow fadeInUp">
+                            <h6 className="ft-title">Our Coach</h6>
                             <ul>
                                 <li>
                                     <a href="#">Basic Life Coach</a>
@@ -75,9 +75,9 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="ft_widget ft_menu wow fadeInDown">
-                            <h6 class="ft-title">About Us</h6>
+                    <div className="col-lg-3 col-md-6">
+                        <div className="ft_widget ft_menu wow fadeInDown">
+                            <h6 className="ft-title">About Us</h6>
                             <ul>
                                 <li>
                                     <a href="#">Latest Courses</a>
@@ -97,30 +97,30 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6">
-                        <div class="ft_widget ft_newsletter wow fadeInUp">
-                            <h6 class="ft-title">Newsletter</h6>
-                            <p class="mb-xl-20">Sed ut perspici unde omnis iste natus error sit voluptatem accus</p>
+                    <div className="col-lg-3 col-md-6">
+                        <div className="ft_widget ft_newsletter wow fadeInUp">
+                            <h6 className="ft-title">Newsletter</h6>
+                            <p className="mb-xl-20">Sed ut perspici unde omnis iste natus error sit voluptatem accus</p>
                             <form>
-                                <input type="email" name="#" placeholder="Enter Your Email" autocomplete="off"/>
-                                <button type="submit" class="thm-btn bg-thm-color-three thm-color-three-shadow btn-rounded">Subscribe Now <i class="fal fa-chevron-right ml-2"></i></button>
+                                <input type="email" name="#" placeholder="Enter Your Email" autoComplete="off"/>
+                                <button type="submit" className="thm-btn bg-thm-color-three thm-color-three-shadow btn-rounded">Subscribe Now <i className="fal fa-chevron-right ml-2"></i></button>
                             </form>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="footer_bottom">
-                <p class="mb-0">
+            <div className="footer_bottom">
+                <p className="mb-0">
                     © 2021 <a href="#">Wellco</a>. All Rights Reserved, Design By Webtend
                 </p>
             </div>
-            <img src="assets/images/elements/element_16.png" alt="element" class="element_3 rotate_elem"/>
-            <div class="arrows to_up slideTop">
-                <div class="arrow"></div>
-                <div class="arrow"></div>
-                <div class="arrow"></div>
-                <div class="arrow"></div>
-                <div class="arrow"></div>
+            <img src="assets/images/elements/element_16.png" alt="element" className="element_3 rotate_elem"/>
+            <div className="arrows to_up slideTop">
+                <div className="arrow"></div>
+                <div className="arrow"></div>
+                <div className="arrow"></div>
+                <div className="arrow"></div>
+                <div className="arrow"></div>
             </div>
         </div>
     </footer>

@@ -56,7 +56,7 @@ const MobileNavbar = () => {
                             <a href="testimonials.html">Testimonials</a>
                         </li>
                         <li className="menu-item">
-                            <a href="faqs.html">FAQ's</a>
+                            <a href="faqs.html">FAQ&apos;s</a>
                         </li>
                     </ul>
                 </li>
